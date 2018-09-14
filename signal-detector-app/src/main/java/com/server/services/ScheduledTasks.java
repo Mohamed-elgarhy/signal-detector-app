@@ -39,7 +39,7 @@ public class ScheduledTasks {
 	        request.setStatus(randomStatus);
 	        request.setVechileId(vechileId);
 	        
-	        new RestTemplate().postForEntity( "http://localhost:8000/updateVechile", request , VechileDTO.class );
+	        new RestTemplate().postForEntity( "http://localhost:8000/vechile/update/status", request , VechileDTO.class );
 		    
 		}
         
