@@ -1,3 +1,4 @@
 language: java
 sudo: enabled
 before_script: cd signal-detector-app
+ 
